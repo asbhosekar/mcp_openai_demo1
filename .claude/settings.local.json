@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(findstr:*)",
+      "Bash(pip install:*)",
+      "Bash(python:*)",
+      "Bash(if not exist \"%USERPROFILE%\\\\mcp\\\\folder\" mkdir \"%USERPROFILE%\\\\mcp\\\\folder\")",
+      "Bash(cat:*)",
+      "Bash(explorer \"C:\\\\Users\\\\asbho\\\\mcp\\\\folder\")",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
