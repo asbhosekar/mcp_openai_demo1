@@ -130,5 +130,5 @@ async def test_query(query: str):
         print("TEST COMPLETED SUCCESSFULLY!")
 
 if __name__ == "__main__":
-    query = "Create a new directory named 'asb' in the current folder, then create a file named 'asb.txt' inside it with the text 'hello ashish'"
+    query = "Create a folder called 'asb', then create a file named 'welcome.txt' inside it with the text 'Hello Ashish, Welcome', and finally show the contents of the file"
     asyncio.run(test_query(query))
